@@ -1,0 +1,87 @@
+/* GENERAL PAGE SETTINGS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+article {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: auto;
+    text-align: center;
+    background-color: #000000;
+    font-size: 40px;
+    margin: 20px;
+    color: #ffffff;
+}
+/* HEADER + NAVIGATION */
+header {
+    background: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(175, 230, 240);
+    margin: 0 15px;
+    text-decoration: rgb(71, 22, 206);
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* SECTIONS */
+section {
+    padding: 30px;
+    background: rgb(79, 189, 223);
+    margin: 20px auto;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #666;
+    padding: 10px;
+}
+
+/* IMAGE */
+img {
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 50%;
+    height: auto;
+}
+
+/* FORM */
+form input[type="text"],
+form input[type="email"] {
+    width: 250px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+form input[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #233dcf;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
